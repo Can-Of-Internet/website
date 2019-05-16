@@ -1,0 +1,115 @@
+/* This'll make things pretty. Probably. */
+* {
+  font-size: 100%;
+  margin: 0;
+  line-height: 1;
+  box-sizing: border-box
+  /* border: 1px solid red; */
+}
+
+header {
+  border-bottom: 5px solid grey;
+}
+
+.title {
+  font-size: 48px;
+  text-decoration: underline;
+}
+
+body {
+  background-image: url(images/pattern.png);
+  background-repeat: repeat;
+  background-color: Tomato;
+  color: black;
+  font-family: 'Roboto Condensed';
+  font-size: 20px;
+}
+
+section {
+  border: 2px solid gainsboro;
+  background-color: white;
+  margin: 30px;
+  padding: 30px;
+}
+
+header, section, footer {
+  padding: 30px;
+}
+
+img {
+  height: 300px;
+}
+
+a {
+  color: HotPink;
+  text-decoration: none;
+}
+
+a:link,
+a:focus,
+a:active {
+  text-decoration: italic;
+  color: red;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: yellow;
+}
+
+h1 {
+    font-family: 'Helvetica', Arial;
+    font-size: 36px
+  }
+
+  h4 {
+    font-size: 16px
+  }
+
+  h6 {
+    font-size: 10px
+  }
+
+    h1, h4, h6 {
+      font-weight: 1000;
+      font-family: "Book Antiqua" ;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+  header h1 {
+    text-align: center;
+  }
+
+section {
+  background-color: turquoise;
+}
+
+p {
+  color: black;
+  line-height: 1.69;
+  margin: 15px 0;
+}
+
+ul, ol {
+  margin: 15px 0;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+footer {
+  background-color: Orchid;
+  font-size: 12px;
+  font-family: "Big Caslon","Book Antiqua","Palatino Linotype",Georgia,serif
+}
+
+footer p {
+  font-size: 10px;
+  text-align: center;
+}
