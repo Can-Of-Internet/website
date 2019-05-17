@@ -120,6 +120,7 @@ ul, ol {
 
 footer {
   background-color: Navy;
+  background-image: url(images/dog_banner.jpg);
   font-size: 12px;
   font-family: "Big Caslon","Book Antiqua","Palatino Linotype",Georgia,serif
 }
