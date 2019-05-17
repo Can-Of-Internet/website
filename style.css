@@ -8,7 +8,7 @@
 }
 
 header {
-  border-bottom: 5px solid grey;
+  border-bottom: 1px solid grey;
 }
 
 .title {
@@ -16,8 +16,15 @@ header {
   text-decoration: underline;
 }
 
+.banner {
+  height: 350px;
+  background-image: url(images/dog_job.jpg);
+  background-size: 100%;
+  background-position: center;
+}
+
 body {
-  background-image: url(images/pattern.png);
+  background-image: url(images/pattern.jpg);
   background-repeat: repeat;
   background-color: Tomato;
   color: black;
@@ -38,10 +45,11 @@ header, section, footer {
 
 img {
   height: 300px;
+  width: 400px;
 }
 
 a {
-  color: HotPink;
+  color: black;
   text-decoration: none;
 }
 
@@ -57,23 +65,23 @@ a:hover {
 }
 
 a:visited {
-  color: yellow;
+  color: purple;
 }
 
 h1 {
-    font-family: 'Helvetica', Arial;
+    font-family: Arial;
     font-size: 36px
   }
 
-  h4 {
+  h2 {
     font-size: 16px
   }
 
-  h6 {
+  h3 {
     font-size: 10px
   }
 
-    h1, h4, h6 {
+    h1, h2, h3 {
       font-weight: 1000;
       font-family: "Book Antiqua" ;
       text-align: center;
@@ -85,7 +93,7 @@ h1 {
   }
 
 section {
-  background-color: turquoise;
+  background-color: orange;
 }
 
 p {
@@ -104,12 +112,12 @@ ul, ol {
 }
 
 footer {
-  background-color: Orchid;
+  background-color: Navy;
   font-size: 12px;
   font-family: "Big Caslon","Book Antiqua","Palatino Linotype",Georgia,serif
 }
 
 footer p {
-  font-size: 10px;
+  font-size: 15px;
   text-align: center;
 }
