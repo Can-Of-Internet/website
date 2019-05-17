@@ -23,6 +23,13 @@ header {
   background-position: center;
 }
 
+/* .banner p {
+  font-size: 40px;
+  color: yellow;
+  text-align: center;
+  padding-top: 100px;
+} */
+
 body {
   background-image: url(images/pattern.jpg);
   background-repeat: repeat;
